@@ -1,0 +1,10 @@
+{
+	"name": "Gerador CPF",
+	"version": "1.0",
+	"description": "Gerador de CPF Randômico",
+	"browser_action": {
+		"default_popup": "index.html",
+		"default_icon": "icon.png"
+	},
+	"manifest_version": 2
+}

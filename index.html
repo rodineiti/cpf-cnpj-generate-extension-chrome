@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gerador de CPF</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">	
+	<link rel="stylesheet" href="sweetalert/sweetalert.css">
+	<script src="clipboard.min.js"></script>
+	<script src="sweetalert/sweetalert.min.js"></script>
+	<script src="script.js"></script>
+	<style>
+    body {
+      padding-top: 50px;
+      min-width:400px;
+      min-height: 400px;
+    }
+  </style>
+</head>
+<body>
+	<div class="container">
+		<div class="card" style="width: 30rem;">
+			<div class="card-body">
+				<div class="col">
+					<h5 class="card-title text-center">GERADOR CPF / CNPJ</h5>	
+					<div class="text-center" id="resultado" class="resultado"></div>
+					<br>
+				</div>
+				<div class="col" align="center">
+					<button class="btn btn-warning" id="btngerar_cpf" data-clipboard-action="copy" data-clipboard-target="#resultado">CPF</button>
+					<button class="btn btn-info" id="btngerar_cnpj" data-clipboard-action="copy" data-clipboard-target="#resultado">CNPJ</button>
+				</div>			
+			</div>
+		</div>
+	</div>
+</body>
+</html>
